@@ -3,4 +3,4 @@
 <p><strong>Body: </strong><%= @book.body %></p>
 
 <!-- add edit and back button later -->
-<%= link_to 'edit', edit_book_path(@book.id) %> | <%= link_to 'back', books_path %>
+<%= link_to 'Edit', edit_book_path(@book.id), class: "links" %> | <%= link_to 'Back', books_path, class: "links" %>
